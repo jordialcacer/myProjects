@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap'); /*Young Serif - 400*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); /*Outfit - 400*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap'); /*Outfit - 600*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap'); /*Outfit - 700*/
+
+:root{
+
+    /*Colors*/
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+    
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--Stone-100);
+    height: 100%;
+    align-content: center;
+}
+
+section{
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 2rem;
+    align-content: center;
+}
+
+.img--content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--Stone-900);
+    font-size: xx-large;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#intro{
+    font-family: 'Outfit';
+    font-size: smaller;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*--Preparation--*/
+.preparation{
+    background-color: var(--Rose-50);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.preparation--content{
+    padding-left: 15px;
+}
+
+.preparation--content-element{
+    padding-bottom: 8px;
+    font-family: 'Outfit';
+    font-size: smaller;
+}
+
+h3{
+    font-family: 'Outfit';
+    color: var(--Rose-800);
+}
+
+/*--Ingredients--*/
+.Ingredients{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Ingredients--content-element{
+    padding-bottom: 8px;
+    font-family: 'Outfit';
+    font-size: smaller;
+}
+
+h2{
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--Brown-800);
+
+}
+
+/*--Instructions--*/
+.instructions{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.instructions--content{
+    padding-left: 15px;
+}
+
+.instructions--content-element{
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-right: 80px;
+    font-family: 'Outfit';
+    font-size: smaller;
+}
+
+.instructions--content-element::marker{
+    color: var(--Brown-800);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    
+}
+
+/*--Nutrition--*/
+p{
+    font-family: 'Outfit';
+    font-size: smaller;
+}
+
+.nutritioTable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,20px);
+    gap: 10px;
+}
+
+.nutritionTable--element-a{
+    font-family: 'Outfit';
+    font-size: smaller;
+}
+
+.nutritionTable--element-b{
+    color: var(--Brown-800);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+.nutritionTable--element-space-a{
+    grid-area: 2 / 1 / 3 / 3; 
+
+}
+
+.nutritionTable--element-space-b{
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.nutritionTable--element-space-c{
+    grid-area: 6 / 1 / 7 / 3;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+}
+
